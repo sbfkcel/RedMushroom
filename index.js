@@ -1,3 +1,17 @@
-let ms = require('./lib/protobuf-3.5.1/js/message');
+const adb = require('./lib/adb'),
+    getSdkVer = require('./lib/getSdkVer'),
+    getCpuType = require('./lib/getCpuType'),
+    lang = require('./lib/lang');
 
-console.log(ms);
+lang('error').then(v => {
+    console.log(v);
+});
+
+getSdkVer().then(v => {
+    console.log(v);
+});
+
+getCpuType().then(v => {
+    console.log(v);
+});
+

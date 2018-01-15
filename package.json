@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sbfkcel/RedMushroom/issues"
   },
-  "homepage": "https://github.com/sbfkcel/RedMushroom#readme"
+  "homepage": "https://github.com/sbfkcel/RedMushroom#readme",
+  "dependencies": {
+    "os-locale": "^2.1.0"
+  }
 }
