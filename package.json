@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/sbfkcel/RedMushroom#readme",
   "dependencies": {
+    "clipboardy": "^1.2.2",
     "os-locale": "^2.1.0"
   }
 }
